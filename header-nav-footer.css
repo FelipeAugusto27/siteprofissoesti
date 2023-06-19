@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+    font-family: OCR A;
+    background: url("foto-de-fundo.jpg");
+}
+
+article h1, h2, nav {
+    background-color: black;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+div#interface {
+    position: relative;
+    width: 1500px;
+    margin: -23px auto 0px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    padding: 10px;
+    border: 1px solid black;
+}
+header {
+    border-bottom: 1px #606060 solid;
+    text-align: center;
+    font-size: 20pt;
+}
+
+header img {
+    position: absolute;
+    width: 8%;
+    align: left;
+    left: 40px;
+    top: 50px;
+}
+
+nav#direita {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #ddd;
+    padding: 0px 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+}
+
+nav#direita ul {
+    font-size: 20pt;
+}
+
+article {
+    border-right: 1px solid #606060;
+    margin: auto 375px auto auto;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+article h1 {
+    background color: #ADD8E6;
+}
+
+div#profissoes {
+    margin: 10px center;
+}
+
+div#profissoes img {
+    width: 10%;
+    padding: 50px;
+}
+
+img.profissao {
+    width: 50%;
+    margin: auto;
+    box-shadow: 1px 1px 4px black;
+}
+
+footer {
+    border-top: 1px solid #606060;
+}
+
+footer p {
+    text-align: center;
+}
+
+input, textarea {
+    font-size: 13pt;
+}

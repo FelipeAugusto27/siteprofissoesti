@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Profissões de TI</title>
+    <link rel="stylesheet" type="text/css" href="header-nav-footer.css">
+</head>
+<body>
+    <div id="interface">
+            <header>
+                <hgroup>
+                    <h1>Profissões de TI</h1>
+                    <h5>Por Felipe Augusto Machado Sampaio Miguel</h5>
+                </hgroup>
+                <img id="logo" src="logo.png">
+            </header>
+            <nav id="direita">
+                <h2>Todas as Páginas</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="suporte.html">Suporte Técnico</a></li>
+                    <li><a href="dev.html">Desenvolvedor Web</a></li>
+                    <li><a href="seguranca.html">Segurança</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Fale conosco</h1>
+                    <form method="post" action="mailto:felipeasmiguel@gmail.com" oninput="calc_total()">
+                        <fieldset id="idMensagem">
+                            <legend>Envie sua dúvida</legend>
+                            <p><label>Mensagem:</label></p>
+                            <p><label for="idnome">Nome:<input type="text" name="nnome" id="idnome" size="40" maxlength="40" placeholder="Digite aqui o seu nome"></label></p>
+                            <p><label for="idslider">Avaliação do site:</label> Min <input type="range" name="nslider" id="idslider" min="0" max="10" step="1"> Máx </p>
+                            <textarea name="nmsg" id="idmsg" cols="100" rows="5" maxlength="250" placeholder="Deixe aqui sua mensagem"></textarea>
+                        </fieldset>
+                         <input type="image" src="botao-enviar.png" name="nenviar">
+                    </form>
+            </article>
+
+        <footer>
+            <p>Créditos</p>
+            <p>Por Felipe Augusto Machado Sampaio Miguel</p>
+            <a href="https://br.linkedin.com/in/felipe-augusto-machado-sampaio-miguel-536a79269"><p>Linkedin</p></a>
+        </footer>
+    </div>
+</body>
+</html>
