@@ -20,11 +20,6 @@ a{
     color: black;
 }
 
-a:hover {
-    color: white;
-    background-color: black;
-}
-
 div#interface {
     position: relative;
     width: 1500px;
@@ -34,6 +29,7 @@ div#interface {
     padding: 10px;
     border: 1px solid black;
 }
+
 header {
     border-bottom: 1px #606060 solid;
     text-align: center;
@@ -59,6 +55,17 @@ nav#direita {
 
 nav#direita ul {
     font-size: 20pt;
+    list-style: none;
+    padding: 0px;
+}
+
+nav#direita li:hover {
+    color: white;
+    background-color: black;
+}
+
+nav#direita a:hover {
+    color: white;
 }
 
 article {
@@ -93,6 +100,10 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 input, textarea {
