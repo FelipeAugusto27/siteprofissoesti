@@ -64,7 +64,11 @@ nav#direita ul {
     padding: 0px;
 }
 
-nav#direita li:hover {
+nav#direita a {
+    display: block;
+}
+
+nav#direita a:hover {
     color: white;
     background-color: black;
 }
